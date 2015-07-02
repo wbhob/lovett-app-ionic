@@ -1,0 +1,6 @@
+4/13/2015 - Fixed Network Error popup
+4/5/2015 - Added Login Popup, Iterating at every launch, fixed expose-aside-when for landscape only on iPad (>960px)
+4/4/2015 - Added expose-aside-when on iPad and large devices
+3/29/2015 - Added Buttons on bulletin page to choose school
+3/25/2015 - Added Pull to Refresh
+3/24/2015 - Original Build

@@ -1,0 +1,19 @@
+<ion-view view-title="Welcome">
+    <ion-content ng-controller="WelcomeCtrl" class="welcome" view-title="Welcome">
+
+        <div class="row abt padding">
+            <div class="col">
+                <img src="img/welcome-icon.png" style="height:200px;" />
+                <h1 id="time" ng-bind="time">Hello!</h1>
+                <p style="text-align:center; font-size:1.1rem" class="p-adjust">Welcome to the Lovett app. We are thrilled to share our new app with you!</p>
+                <br />
+                <br />
+                <a href="#/app/bulletin">
+                    <button class="button button-outline button-white">
+                        Read Today's Bulletin
+                    </button>
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

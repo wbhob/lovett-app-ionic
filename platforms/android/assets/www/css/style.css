@@ -1,0 +1,108 @@
+/* Empty. Add your own CSS if you like */
+
+* {
+  font-family: "San Fransisco", "San Fransisco Text", sans-serif, "Helvetica" !important
+}
+
+h1 {
+  text-align: center !important;
+}
+
+.welcome {
+  background-image: url(../img/welcome-background.jpeg);
+  color: #fff !important;
+  background-size: cover;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+#time {
+  color: #ffffff;
+}
+
+p {
+  font-weight: 300;
+}
+
+.about {
+  background-image: url(../img/about-background.jpeg);
+  background-position: center;
+  color: #fff !important;
+  background-size: cover;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.custom-light {
+  color: #ffffff !important;
+}
+
+.button-white {
+  border-color: #fff !important;
+  color: white !important;
+}
+
+.button-white.activated {
+  background-color: rgba(255, 255, 255, .2) !important;
+}
+
+@media (max-width: 720px) {
+  .p-adjust {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .welcome, .about {
+    margin-top: -100px !important;
+  }
+}
+
+.center {
+  text-align: center !important;
+}
+
+.name, .id {
+  text-align: center;
+}
+
+canvas#barcode {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+  height: 100px;
+  margin-left: 25%;
+}
+.bar.bar-stable {
+  margin-top:00px;
+}
+
+/* Slider CSS */
+.container-one {position:fixed}
+
+div.list {
+  text-align: left;
+}
+
+div.list .item {
+  background-color: rgba(255, 255, 255, .7);
+}
+.slide {
+  text-align: center;
+  margin:0;
+  margin:0;
+}
+.input-assertive {
+  border: 1px solid #ef473a !important;
+  color:#ef473a !important;
+}
+.setUpForm {
+  margin-bottom: 3px;
+}

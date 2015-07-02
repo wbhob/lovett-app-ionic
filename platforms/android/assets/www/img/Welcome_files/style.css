@@ -1,0 +1,13 @@
+/* Empty. Add your own CSS if you like */
+h1 {
+    text-align: center;
+}
+.welcome {
+    background-image: url(../img/welcome-background.jpeg);
+    color:#fff !important;
+    background-size: cover;
+    text-align: center;
+    background-color:rgba(0,0,0,.9);
+}
+#time {color: #ffffff;}
+p {font-weight:300;}

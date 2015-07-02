@@ -1,0 +1,37 @@
+<ion-view view-title="Settings" ng-controller="SettingsCtrl">
+    <ion-content class="padding">
+        <h1>Settings</h1>
+        <p>Always remember to save your changes. They will be reflected immediately.</p>
+        <div class="list">
+          <label class="item item-toggle">
+              Enable Digital ID
+              <label class="toggle">
+                  <input type="checkbox" class="digital-id-toggle" checked>
+                  <div class="track">
+                      <div class="handle"></div>
+                  </div>
+              </label>
+          </label>
+            <label class="item item-input">
+                <span class="input-label">Full Name</span>
+                <input type="text" id="fullName">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">ID Number</span>
+                <input type="number" id="idNum">
+            </label>
+            <button class="button button-full button-positive save-local" ng-click="setLocal()">
+                Save Digital ID
+            </button>
+        </div>
+
+        <!-- Add Image -->
+        <button class="button button-assertive button-block" ng-click="addImage()">
+            Load Image
+        </button>
+        <br>
+        <br>
+        <img src="" width="100%" class="profile-img" />
+</ion-view>
+</ion-content>
+</ion-view>

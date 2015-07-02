@@ -1,0 +1,1 @@
+4/13/2015 - status bar does not change color from white

@@ -1,0 +1,61 @@
+2015-07-01 19:43:00.773 lovett[69289:1454317] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/wilsonhobbs/Library/Developer/CoreSimulator/Devices/BA7E2015-86C3-4374-B763-21DE7E4F7D12/data/Containers/Data/Application/976F02D3-D3F3-4FF0-9111-2D226905F9A3/Library/Cookies/Cookies.binarycookies
+2015-07-01 19:43:01.574 lovett[69289:1454317] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-01 19:43:01.576 lovett[69289:1454317] Multi-tasking -> Device: YES, App: YES
+2015-07-01 19:43:01.627 lovett[69289:1454317] Unlimited access to network resources
+2015-07-01 19:43:02.329 lovett[69289:1454317] [CDVTimer][keyboard] 0.079036ms
+2015-07-01 19:43:02.561 lovett[69289:1454317] [CDVTimer][splashscreen] 231.926024ms
+2015-07-01 19:43:02.561 lovett[69289:1454317] [CDVTimer][admob] 0.138998ms
+2015-07-01 19:43:02.574 lovett[69289:1454317] [CDVTimer][file] 12.427986ms
+2015-07-01 19:43:02.586 lovett[69289:1454317] [CDVTimer][statusbar] 12.311041ms
+2015-07-01 19:43:02.586 lovett[69289:1454317] [CDVTimer][TotalPluginStartup] 258.902013ms
+2015-07-01 19:43:02.767 lovett[69289:1454317] active
+2015-07-01 19:43:02.775 lovett[69289:1454317] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-07-01 19:43:03.077 lovett[69289:1454317] Resetting plugins due to page load.
+2015-07-01 19:43:04.546 lovett[69289:1454317] Finished load of: file:///Users/wilsonhobbs/Library/Developer/CoreSimulator/Devices/BA7E2015-86C3-4374-B763-21DE7E4F7D12/data/Containers/Bundle/Application/16B35EA5-AFFF-46B2-8EF8-4F28D6AF2916/lovett.app/www/index.html#/app/welcome
+2015-07-01 19:43:05.706 lovett[69289:1454317] THREAD WARNING: ['NetworkStatus'] took '446.222900' ms. Plugin should use a background thread.
+2015-07-01 19:43:05.944 lovett[69289:1454317] createBanner
+2015-07-01 19:43:05.944 lovett[69289:1454317] showBanner
+2015-07-01 19:43:06.171 lovett[69289:1454317] statusbar offset:20.000000, overlap:0, ad position:8, x:0, y:0
+2015-07-01 19:43:06.175 lovett[69289:1454317] window, resize, 
+2015-07-01 19:43:06.176 lovett[69289:1454317] THREAD WARNING: ['AdMob'] took '231.447998' ms. Plugin should use a background thread.
+2015-07-01 19:43:06.244 lovett[69289:1454317] prepareInterstitial
+2015-07-01 19:43:06.447 lovett[69289:1454317] THREAD WARNING: ['PushPlugin'] took '199.129883' ms. Plugin should use a background thread.
+2015-07-01 19:43:06.470 lovett[69289:1454317] THREAD WARNING: ['InAppPurchase'] took '20.119141' ms. Plugin should use a background thread.
+2015-07-01 19:43:06.818 lovett[69289:1454317] Created
+2015-07-01 19:43:06.818 lovett[69289:1454317] InAppPurchase[js]: setup ok
+2015-07-01 19:43:06.818 lovett[69289:1454317] InAppPurchase[js]: load ["productId1","productId2","productId3"]
+2015-07-01 19:43:06.819 lovett[69289:1454317] InAppPurchase[objc]: Getting products data
+2015-07-01 19:43:06.819 lovett[69289:1454317] InAppPurchase[objc]: Set has 3 elements
+2015-07-01 19:43:06.819 lovett[69289:1454317] InAppPurchase[objc]:  - productId3
+2015-07-01 19:43:06.819 lovett[69289:1454317] InAppPurchase[objc]:  - productId2
+2015-07-01 19:43:06.820 lovett[69289:1454317] InAppPurchase[objc]:  - productId1
+2015-07-01 19:43:06.822 lovett[69289:1454317] InAppPurchase[objc]: Starting product request...
+2015-07-01 19:43:06.822 lovett[69289:1454317] InAppPurchase[objc]: Product request started
+2015-07-01 19:43:09.207 lovett[69289:1454317] active
+2015-07-01 19:43:14.001 lovett[69289:1454317] Ionic Analytics: successfully registered analytics key
+2015-07-01 19:43:14.001 lovett[69289:1454317] Ionic Analytics: enqueuing event to send later:
+2015-07-01 19:43:17.756 lovett[69289:1454317] Ionic Analytics: sent events
+2015-07-01 19:43:21.468 lovett[69289:1454317] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-07-01 19:43:21.593 lovett[69289:1454317] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdLoaded'}
+2015-07-01 19:43:27.631 lovett[69289:1454317] InAppPurchase[objc]: productsRequest: didReceiveResponse:
+2015-07-01 19:43:27.631 lovett[69289:1454317] InAppPurchase[objc]: Has 0 validProducts
+2015-07-01 19:43:27.633 lovett[69289:1454317] InAppPurchase[objc]: productsRequest: didReceiveResponse: sendPluginResult: (
+        (
+    ),
+        (
+        productId1,
+        productId3,
+        productId2
+    )
+)
+2015-07-01 19:43:27.634 lovett[69289:1454317] InAppPurchase[js]: load ok: { valid:[] invalid:["productId1","productId3","productId2"] }
+2015-07-01 19:43:27.634 lovett[69289:1454317] In-app purchases are ready to go
+2015-07-01 19:44:19.050 lovett[69289:1454317] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-07-01 19:45:19.742 lovett[69289:1454317] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-07-01 19:46:21.106 lovett[69289:1454317] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-07-01 19:47:23.507 lovett[69289:1454317] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-07-01 19:48:25.416 lovett[69289:1454317] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-07-01 19:49:26.121 lovett[69289:1454317] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-07-01 19:50:27.939 lovett[69289:1454317] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-07-01 19:51:28.384 lovett[69289:1454317] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-07-01 19:52:29.839 lovett[69289:1454317] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}

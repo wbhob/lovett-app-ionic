@@ -1,0 +1,15 @@
+      <ion-view view-title="Lower School" ng-controller="LSCtrl">
+        <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button class="button-clear"><i class="icon ion-ios-arrow-back"></i>
+            </ion-nav-back-button>
+        </ion-nav-bar>
+        <ion-content class="padding">
+          <ion-refresher pulling-text="Pull to refresh..." on-refresh="doRefresh()"></ion-refresher>
+        <div class="row">
+          <div class="col">
+            <h1 style="text-align:center">Daily Bulletin</h1>
+            <div id="lsBulletin"></div>
+          </div>
+        </div>
+        </ion-content>
+      </ion-view>
